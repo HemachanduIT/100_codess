@@ -1,6 +1,15 @@
+# 4
+
+# 2 
+# 3 4
+# 5 6 7
+# 8 9 10 11
+# 8 9 10 11
+# 5 6 7
+# 3 4
+# 2
 n=int(input())
 a=3
-
 for i in range(2*n):
     if i<n:
         for j in range(i+1):
