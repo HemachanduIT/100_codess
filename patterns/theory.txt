@@ -1,2 +1,2 @@
-learning patterns
-anusha
+learning pattern in order to gain knowledge regarding loops
+loops are essential part of  coding 
