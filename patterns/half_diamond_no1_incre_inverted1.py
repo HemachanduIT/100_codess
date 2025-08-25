@@ -1,3 +1,13 @@
+# 4
+# 2 
+# 4 3
+# 7 6 5
+# 11 10 9 8
+# 7 6 5
+# 4 3
+# 2
+
+
 n=int(input())
 a=3
 for i in range(1,2*n+1):
@@ -13,7 +23,7 @@ for i in range(1,2*n+1):
     else:
         if i==n+1:
             
-            b=a-2*i
+            b=a-2*i 
         # print(a)
         # d=b
         for j in range(2*n-i):
