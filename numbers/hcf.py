@@ -1,3 +1,6 @@
+# 36
+# 60
+# the hcf of  36 and 60 is 12
 a=int(input())
 b=int(input())
 n1,n2=a,b
