@@ -1,0 +1,11 @@
+s=list(map(int,input().split()))
+s.sort()
+a=s
+i=a
+print(i)
+r=i[:len(s)//2]
+a.sort(reverse=True)
+b=a
+print(b)c
+c=r+b[:len(s)//2]
+print(c)
