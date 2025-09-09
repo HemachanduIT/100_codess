@@ -1,3 +1,7 @@
+# 4
+# 1 3 4 2 2
+# the id that appears twice is 2
+
 def duplicate(n,s):
     # res=[]
     # for i in range(n+1):
