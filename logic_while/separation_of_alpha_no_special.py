@@ -2,7 +2,9 @@
 #     Logic123!@While
 # output:
 # ['123', 'LogicWhile', '!@']
+# ["123", "LogicWhile", "!@"]   using json.dumps()
 import string
+import json
 def separation(s):
     res=[]
     no=''
@@ -21,3 +23,4 @@ def separation(s):
     return res
 s=input()
 print(separation(s))
+print(json.dumps(separation(s)))
