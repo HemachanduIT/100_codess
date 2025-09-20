@@ -2,3 +2,5 @@ just a theory file!!!
 name according to ssc -->BENUBOYINA HEMA CHANDU
 SSC %--->99.33
 INTER %---->89
+packages.json===>npm init
+servers===> npm install express
