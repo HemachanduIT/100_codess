@@ -13,6 +13,7 @@ def secondOccurence(s):
             return i
         else:
             res.append(s[i])
+        return -1
         
 s=list(map(int,input().split()))
 print(secondOccurence(s))
