@@ -10,6 +10,5 @@ for i in s:
         if char not in var:
             var+=char
     res.append(var)
-print(res)
-        c
+print(res)     
         
