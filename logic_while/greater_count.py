@@ -1,3 +1,9 @@
+# input:
+#     6
+#     88 45 67 67 72 80
+# output:
+#     5 0 1 1 3 4
+
 def greatercount(n,s):
     res=[]
     for i in range(n):
