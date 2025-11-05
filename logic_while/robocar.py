@@ -1,3 +1,7 @@
+# input:
+#     1 2 3 4
+# output:
+#     10
 s=list(map(int, input().split()))
 summ=0
 for i in range(len(s)):
