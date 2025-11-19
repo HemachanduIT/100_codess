@@ -9,4 +9,6 @@ servers===> npm install express
 latest docker commands
 container--docker image
 docker images   docker ps  --images and container running check
-sem exams -BDA
+sem exams 
+-BDA completed
+-ML complted
