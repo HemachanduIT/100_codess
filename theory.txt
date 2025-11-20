@@ -12,4 +12,4 @@ docker images   docker ps  --images and container running check
 sem exams 
 -BDA completed
 -ML complted
--Cloud computing not completed
+-Cloud computing not completed and yet to complete tommorow
