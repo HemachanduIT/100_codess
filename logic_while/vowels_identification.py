@@ -16,6 +16,6 @@ def vowelsidentify(n,s):
     return res
             
 
-n=int(input())
-s=list(map(str,input().split()))
-print(vowelsidentify(n,s))
+a=int(input())
+b=list(map(str,input().split()))
+print(vowelsidentify(a,b))
