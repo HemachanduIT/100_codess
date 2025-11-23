@@ -11,11 +11,11 @@ n=int(input())
 s=list(map(int,input().split()))
 loc1,loc2=map(int,input().split())
 key=int(input())
-a=''
+result=''
 if loc1<len(s) and loc2<len(s):
     s[loc1],s[loc2]=s[loc2],s[loc1]
 # print(s)
 if key in s:
-    a='YES'
+    result='YES'
 
-print(s,a,s[::-1])
+print(s,result,s[::-1])
