@@ -4,12 +4,12 @@
 
 
 a,b=int(input()),int(input())
-n1,n2=a,b
+num1,num2=a,b
 while a!=b:
     if a>b:
         a-=b
     else:
         b-=a
 hcf=a
-lcm=n1*n2//hcf
-print("the lcm of ",n1,'and',n2,"is",lcm)
+lcm=num1*num2//hcf
+print("the lcm of ",num1,'and',num2,"is",lcm)
