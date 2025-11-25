@@ -1,5 +1,5 @@
 def sum_of_ids(n,s):
-    res=[]
+    result=[]
     # for i in range(n):
     #     a=s[i]
     #     summ=0
@@ -13,8 +13,8 @@ def sum_of_ids(n,s):
         summ=0
         for j in str(i):
             summ+=int(j)
-        res.append(summ)
-    return ' '.join(map(str,res))
+        result.append(summ)
+    return ' '.join(map(str,result))
 n=int(input())
 s=list(map(int,input().split()))
 print(sum_of_ids(n,s))
