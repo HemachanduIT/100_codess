@@ -13,5 +13,5 @@ def maxtoys(n,k,prices):
             c+=1
     return c
 n,k=map(int,input().split())
-prices=list(map(int,input().split()))
-print(maxtoys(n,k,prices))
+p=list(map(int,input().split()))
+print(maxtoys(n,k,p))
