@@ -1,5 +1,5 @@
 n=int(input())
 if n&1==0:
-    print("even")
+    print("even number")
 else:
     print("odd")
