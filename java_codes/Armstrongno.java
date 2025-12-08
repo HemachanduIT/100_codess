@@ -1,5 +1,3 @@
-// package java_codess;
-// import java.util.*;
 public class Armstrongno {
     public static void main(String[]args){
         int n=153;
