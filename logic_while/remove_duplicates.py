@@ -1,6 +1,6 @@
 s=list(map(int,input().split()))
-res=[]
+result=[]
 for i in s:
-    if i not in res:
-        res.append(i)
-print(res)
+    if i not in result:
+        result.append(i)
+print(result)
