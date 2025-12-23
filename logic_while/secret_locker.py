@@ -12,12 +12,12 @@
 #         if i<len(z):
 #             res+=z[i]              
 #     return res
-n=int(input())
+no=int(input())
 s=list(map(str,input().split()))
 # print(secretLocker(n,s))
 # print(s[0][0])
 res=''
-for i in range(n):
+for i in range(no):
     if i<len(s[i]):
         res+=s[i][i]
 print(res)
