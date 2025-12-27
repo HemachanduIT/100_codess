@@ -10,4 +10,6 @@ for i in range(n+1):
     if i not in s:
         # a.append(i)
         print("the missing no in the serires is",i)
+    else:
+        continue
 # print(*a)
