@@ -13,4 +13,5 @@ for i in s1:
         break
 if flag:
     print("s1 is subset of s2")
-    
+else:
+    print("s1 is not a subset of s2")
