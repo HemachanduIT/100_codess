@@ -1,9 +1,9 @@
-a,b=0,1
-print(a,b,end=' ')
+n1,n2=0,1
+print(n1,n2,end=' ')
 s=0
 for i in range(2,11):
-    s=a+b
+    s=n1+n2
     print(s,end=' ')
-    a=b
-    b=s
+    n1=n2
+    n2=s
     # print()
