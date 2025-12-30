@@ -9,5 +9,5 @@ def bubble_sort(arr):
                 f=True
     return arr
     
-a=[5,4,7,2,1,8,9,-2,-6,-5]
-print(bubble_sort(a))
+arr=[5,4,7,2,1,8,9,-2,-6,-5]
+print(bubble_sort(arr))
