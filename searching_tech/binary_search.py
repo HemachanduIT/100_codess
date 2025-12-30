@@ -7,7 +7,7 @@ def binary_search(s,k):
     while l<h:
         m=(l+h)//2
         if s[m]==k:
-            print("element found")
+            print("element"+k+"found")
             f=1
             break
         elif s[m]>k:
@@ -16,5 +16,5 @@ def binary_search(s,k):
             l=m+1
 
     if f==0:    
-        print("element not found")
+        print("element ",k," not found")
 binary_search(s,k)
