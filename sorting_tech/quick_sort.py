@@ -8,5 +8,5 @@ def quick_sort(arr):
     l=quick_sort(l)
     r=quick_sort(r)
     return l+[p]+r
-a=[5,4,7,2,1,8,9,-2,-6,-5]
-print(quick_sort(a))
+arr=[5,4,7,2,1,8,9,-2,-6,-5]
+print(quick_sort(arr))
