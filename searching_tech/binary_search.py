@@ -1,4 +1,4 @@
-s=list(map(int,input().split()))
+string=list(map(int,input().split()))
 k=int(input())
 
 def binary_search(s,k):
@@ -17,4 +17,4 @@ def binary_search(s,k):
 
     if f==0:    
         print("element ",k," not found")
-binary_search(s,k)
+binary_search(string,k)
