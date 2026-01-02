@@ -27,6 +27,6 @@ def merge_sort(arr):
         sor_arr[i]=R[r]
         r,i=r+1,i+1
     return sor_arr
-a=[5,4,7,2,1,8,9,-2,-6,-5]
-print(merge_sort(a))
+arr=[5,4,7,2,1,8,9,-2,-6,-5]
+print(merge_sort(arr))
             
