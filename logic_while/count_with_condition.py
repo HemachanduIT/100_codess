@@ -10,6 +10,7 @@ conso=list(set(all)-set(v))
 result=''
 conso_res=''
 vowel_res=''
+
 for i in range(len(s)):
     
     if s[i] in conso:

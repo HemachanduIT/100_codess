@@ -15,6 +15,6 @@ def greatercount(n,s):
                 c+=1
         res.append(c)
     return ' '.join(map(str,res))
-n=int(input())
-s=list(map(int,input().split()))
-print(greatercount(n,s))
+no=int(input())
+ss=list(map(int,input().split()))
+print(greatercount(no,ss))
