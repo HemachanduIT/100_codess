@@ -1,7 +1,7 @@
-input:
-    -123
-output:
-    -321
+# input:
+#     -123
+# output:
+#     -321
 
 k=int(input())
 r=0
