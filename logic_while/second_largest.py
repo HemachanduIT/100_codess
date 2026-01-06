@@ -1,6 +1,6 @@
-s=list(map(int,input().split()))
-if len(s)==1:
+ss=list(map(int,input().split()))
+if len(ss)==1:
     print("no second largest ")
 else:
-    s.sort()
-    print(s[-2])
+    ss.sort()
+    print(ss[-2])
